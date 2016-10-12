@@ -1,0 +1,267 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: rgb(64,64,64) ;
+	position: relative;
+}
+
+#nose {
+
+	width: 0;
+	height: 0;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 15px solid grey;
+
+	position:absolute;
+	bottom:75px;
+	left:530px;
+
+	z-index: 10;
+
+
+}
+
+#apple {
+
+	width: 45px;
+	height: 40px;
+	background:rgb(120,120,120) ;
+	border-radius: 50px;
+
+	position:absolute;
+	bottom:50px;
+	left:400px;
+
+	z-index:10;
+}
+
+
+#eye1 {
+
+	width: 10px;
+	height: 10px;
+	background:black;
+	border-radius: 5px;
+
+	position:absolute;
+	bottom:100px;
+	left:555px;
+
+	z-index: 13;
+
+
+}
+
+#eye10 {
+
+	width: 20px;
+	height: 20px;
+	background:white;
+	border-radius: 10px;
+
+	position:absolute;
+	bottom:95px;
+	left:550px;
+
+	z-index: 12;
+}
+
+#eye2 {
+
+	width: 10px;
+	height: 10px;
+	background:black;
+	border-radius: 5px;
+
+	position:absolute;
+	bottom:100px;
+	left:520px;
+
+	z-index: 13;
+}
+
+
+#eye20 {
+
+	width: 20px;
+	height: 20px;
+	background:white;
+	border-radius: 10px;
+
+	position:absolute;
+	bottom:95px;
+	left:515px;
+
+	z-index: 12;
+}
+
+
+#circle {
+
+	width: 100px;
+	height: 100px;
+	background:white;
+	border-radius: 50px;
+
+	position:absolute;
+	bottom:50px;
+	left:500px;
+
+}
+
+#mouth {
+		width: 30px;
+	height: 5px;
+	background:darkgrey;
+	
+	position: absolute;
+	bottom:60px;
+	left:520px;
+
+	z-index:9;
+}
+
+
+#table {
+	width: 500px;
+	height: 50px;
+	transform: skew(70deg);
+
+	background: lightgrey;
+	
+	position:absolute;
+	bottom:20px;
+	left:200px;
+
+}
+
+
+#pentagon {
+    position: absolute;
+    width: 54px;
+    border-width: 50px 18px 0;
+    border-style: solid;
+    border-color: white transparent;
+   	bottom:32px;
+	left:520px;
+	transform: rotate(-65deg);
+}
+#pentagon:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -85px;
+    left: -18px;
+    border-width: 0 45px 35px;
+    border-style: solid;
+    border-color: transparent transparent white;
+
+}
+
+#candle{
+
+	width: 30px;
+	height: 100px;
+	background: white;
+	
+	position:absolute;
+	bottom:50px;
+	left:300px;
+
+}
+
+
+
+#flame{
+
+ box-sizing: content-box;
+  width: 15px;
+  height: 15px;
+  border: none;
+  -webkit-border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+  border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: yellow;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: yellow;
+  -webkit-transform: rotateZ(-45deg)   ;
+  transform: rotateZ(-45deg)   ;
+
+
+  position: absolute;
+  bottom:150px;
+	left:307px;
+}
+
+#flame:hover { 
+	width: 1000px;
+	height: 1000px;
+	background:orange;
+	border-radius: 500px;
+
+	position:absolute;
+	top:50px;
+	left:0px;
+	opacity:.5;
+
+
+	z-index:11;
+
+	
+}
+
+
+
+
+#flower3 {
+
+	width: 20px;
+	height: 20px;
+	background:black;
+	border-radius: 0%  0%  50%  50%  / 60%   60%   40%  40%;
+
+	position:absolute;
+	bottom:30px;
+	left:450px;
+
+	z-index: 10;
+
+	transform: rotate(90deg);
+}
+
+
+#stem {
+	width: 100px;
+	height: 2px;
+	background:darkgrey;
+	
+	position: absolute;
+	bottom:40px;
+	left:350px;
+
+	z-index:9;
+
+}
+
+
+
+
+
+
+
+
+
+
