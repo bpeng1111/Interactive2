@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+		
+#header {
+	background-size: 100% 100%;
+	width: 100%;
+	height: 70px;
+	top: 0px;
+	position: fixed;
+}
+
+main {
+	width: 620px;
+	height: 600px;
+	background: green;
+	position: absolute;
+	left: 192px;
+	top: 70px;
+}
+
+#badge {
+	position: relative;
+	width:200px; 
+	height: 60px;
+	left: 857px;
+	right: 21px;
+	top: 95px;
+	bottom: 168;	
+}
+
+#footer {
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	bottom: 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;  /* 400, 900*/
+}

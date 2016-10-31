@@ -1,0 +1,1174 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: white;
+	margin: auto;
+}
+
+/*A------------------------------------------------------------------*/
+#A {
+	position: relative;
+	height: 50px;
+	width: 60px;
+}
+
+#A.medium {
+	transform: scaleX(2);
+}
+
+#A.large {
+	transform: scaleX(3);
+}
+
+.a-top-stroke {
+	height: 10px; 
+	width: 20px; 
+	background: black; 
+	position: absolute; 
+	left:10px;
+}
+.a-left-stroke {
+	height: 40px; 
+	width: 10px; 
+	background: black; 
+	position: absolute; 
+	left:0px; 
+	top: 10px;
+}
+.a-middle-stroke {
+	height: 10px; 
+	width: 20px; 
+	background: black; 
+	position: absolute; 
+	left: 10px; 
+	top: 20px;
+} 
+.a-right-stroke {
+	height: 40px; 
+	width: 10px; 
+	left: 30px;
+	top: 10px;
+	background: black; 
+	position: absolute;
+}
+
+/*B------------------------------------------------------------------*/
+#B {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 60px;
+	top: -50px;
+}
+/*#B.widest .a-top-stroke {
+	transform: scaleX(2);
+}*/
+#B.medium {
+	transform: scaleX(2);
+}
+
+#B.large {
+	transform: scaleX(3);
+}
+.b-top-stroke {
+	height: 10px;
+	width: 20px;
+	background: black;
+	position: absolute;
+	left: 10px;
+}
+.b-left-stroke {
+	height: 50px; 
+	width: 10px; 
+	background: black; 
+	position: absolute; 
+	left:0px; 
+}
+.b-middle-stroke {
+	height: 10px; 
+	width: 20px; 
+	background: black; 
+	position: absolute; 
+	left: 10px; 
+	top: 20px;
+} 
+.b-right-stroke-1 {
+	height: 10px; 
+	width: 10px; 
+	left: 30px;
+	top: 10px;
+	background: black; 
+	position: absolute;
+}
+.b-right-stroke-2 {
+	height: 10px; 
+	width: 10px; 
+	left: 30px;
+	top: 30px;
+	background: black; 
+	position: absolute;
+}
+.b-bottom-stroke {
+	height: 10px; 
+	width: 20px;
+	top: 40px;
+	left: 10px;
+	background: black; 
+	position: absolute;
+}
+
+/*C------------------------------------------------------------------*/
+#C {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 120px;
+	top: -100px;
+}
+/*#B.widest .a-top-stroke {
+	transform: scaleX(2);
+}*/
+#C.medium {
+	transform: scaleX(2);
+}
+
+#C.large {
+	transform: scaleX(3);
+}
+.c-top-stroke {
+	height: 10px;
+	width: 20px;
+	background: black;
+	position: absolute;
+	left: 10px;
+}
+.c-left-stroke {
+	height: 30px; 
+	width: 10px; 
+	background: black; 
+	position: absolute; 
+	left:0px;
+	top:10px; 
+}
+.c-right-stroke-1 {
+	height: 10px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 30px;
+	top: 10px;
+}
+.c-right-stroke-2 {
+	height: 10px; 
+	width: 10px; 
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	background: black; 
+}
+.c-bottom-stroke {
+	height: 10px; 
+	width: 20px;
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	background: black; 
+}
+
+/*D------------------------------------------------------------------*/
+#D {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 180px;
+	top: -150px;
+}
+
+#D.medium {
+	transform: scaleX(2);
+}
+
+#D.large {
+	transform: scaleX(3);
+}
+.d-top-stroke {
+	height: 10px;
+	width: 20px;
+	background: black;
+	position: absolute;
+	left: 10px;
+}
+.d-left-stroke {
+	height: 50px; 
+	width: 10px; 
+	background: black; 
+	position: absolute; 
+}
+.d-right-stroke {
+	height: 30px; 
+	width: 10px; 
+	position: absolute;
+	left: 30px;
+	top: 10px;
+	background: black; 
+}
+.d-bottom-stroke {
+	height: 10px; 
+	width: 20px;
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	background: black; 
+}
+
+/*E------------------------------------------------------------------*/
+#E {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 240px;
+	top: -200px;
+}
+#E.medium {
+	transform: scaleX(2);
+}
+
+#E.large {
+	transform: scaleX(3);
+}
+.e-top-stroke {
+	height: 10px;
+	width: 30px;
+	background: black;
+	position: absolute;
+	left: 10px;
+}
+.e-left-stroke {
+	height: 30px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	top: 10px;
+}
+.e-middle-stroke {
+	height: 10px; 
+	width: 30px; 
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	background: black; 
+}
+.e-bottom-stroke {
+	height: 10px; 
+	width: 30px;
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	background: black; 
+}
+
+/*F------------------------------------------------------------------*/
+#F {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 300px;
+	top: -250px;
+}
+#F.medium {
+	transform: scaleX(2);
+}
+
+#F.large {
+	transform: scaleX(3);
+}
+.f-top-stroke {
+	height: 10px;
+	width: 30px;
+	background: black;
+	position: absolute;
+	left: 10px;
+}
+.f-left-stroke {
+	height: 40px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	top: 10px;
+}
+.f-middle-stroke {
+	height: 10px; 
+	width: 30px; 
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	background: black; 
+}
+
+/*G------------------------------------------------------------------*/
+#G {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 0px;
+	top: -240px;
+}
+#G.medium {
+	transform: scaleX(2);
+}
+#G.large {
+	transform: scaleX(3);
+}
+.g-top-stroke {
+	height: 10px;
+	width: 20px;
+	background: black;
+	position: absolute;
+	left: 10px;
+}
+.g-left-stroke {
+	height: 30px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	top: 10px;
+}
+.g-bottom-stroke {
+	height: 10px; 
+	width: 30px; 
+	position: absolute;
+	left: 10px;
+	top: 40px;
+	background: black; 
+}
+.g-right-stroke-1 {
+	height: 10px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 30px;
+	top: 10px;
+}
+.g-right-stroke-2 {
+	height: 10px; 
+	width: 10px; 
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	background: black; 
+}
+
+/*H------------------------------------------------------------------*/
+#H {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 60px;
+	top: -290px;
+}
+#H.medium {
+	transform: scaleX(2);
+}
+
+#H.large {
+	transform: scaleX(3);
+}
+.h-left-stroke {
+	height: 50px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+}
+.h-middle-stroke {
+	height: 10px; 
+	width: 20px; 
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	background: black; 
+}
+.h-right-stroke {
+	height: 50px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 30px;
+}
+
+/*I------------------------------------------------------------------*/
+#I {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 120px;
+	top: -340px;
+}
+#I.medium {
+	transform: scaleX(2);
+}
+
+#I.large {
+	transform: scaleX(3);
+}
+.i-middle-stroke {
+	height: 50px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 10px;
+}
+
+/*J------------------------------------------------------------------*/
+#J {
+	position: relative;
+	display: inline-block;
+	height: 50px;
+	width: 60px;
+	left: 180px;
+	top: -390px;
+}
+#J.medium {
+	transform: scaleX(2);
+}
+
+#J.large {
+	transform: scaleX(3);
+}
+.j-top-stroke {
+	height: 10px;
+	width: 40px;
+	background: black;
+	position: absolute;
+}
+.j-left-stroke {
+	height: 10px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	top: 30px;
+}
+.j-bottom-stroke {
+	height: 10px; 
+	width: 10px; 
+	position: absolute;
+	left: 10px;
+	top: 40px;
+	background: black; 
+}
+.j-right-stroke {
+	height: 30px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+
+/*K------------------------------------------------------------------*/
+#K {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 240px;
+	top: -440px;
+}
+#K.medium {
+	transform: scaleX(2);
+}
+#K.large {
+	transform: scaleX(3);
+}
+.k-middle-stroke {
+	height: 10px;
+	width: 20px;
+	background: black;
+	position: absolute;
+	left: 10px;
+	top: 20px;
+}
+.k-left-stroke {
+	height: 50px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+}
+.k-right-stroke-1 {
+	height: 20px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 30px;
+}
+.k-right-stroke-2 {
+	height: 20px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 30px;
+	top: 30px;
+}
+
+/*L------------------------------------------------------------------*/
+#L {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 300px;
+	top: -490px;
+}
+#L.medium {
+	transform: scaleX(2);
+}
+#L.large {
+	transform: scaleX(3);
+}
+.l-left-stroke {
+	height: 40px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+}
+.l-bottom-stroke {
+	height: 10px; 
+	width: 40px; 
+	position: absolute;
+	top: 40px;
+	background: black; 
+}
+
+/*M------------------------------------------------------------------*/
+#M {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 0px;
+	top: -480px;
+}
+#M.medium {
+	transform: scaleX(2);
+}
+#M.large {
+	transform: scaleX(3);
+}
+.m-middle-stroke {
+	height: 40px;
+	width: 10px;
+	background: black;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+.m-left-stroke {
+	height: 40px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	top: 10px;
+}
+.m-right-stroke{
+	height: 40px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 40px;
+	top: 10px;
+}
+.m-top-stroke-1 {
+	height: 10px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 10px;
+}
+.m-top-stroke-2 {
+	height: 10px;
+	width: 10px;
+	background: black;
+	position:absolute;
+	left: 30px;
+}
+
+/*N------------------------------------------------------------------*/
+#N {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 60px;
+	top: -530px;
+}
+#N.medium {
+	transform: scaleX(2);
+}
+#N.large {
+	transform: scaleX(3);
+}
+.n-left-stroke {
+	height: 40px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	top: 10px;
+}
+.n-right-stroke{
+	height: 40px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 30px;
+	top: 10px;
+}
+.n-top-stroke {
+	height: 10px; 
+	width: 20px; 
+	background: black; 
+	position: absolute;
+	left: 10px;
+}
+
+/*O------------------------------------------------------------------*/
+#O {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 120px;
+	top: -580px;
+}
+#O.medium {
+	transform: scaleX(2);
+}
+#O.large {
+	transform: scaleX(3);
+}
+.o-left-stroke {
+	height: 30px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	top: 10px;
+}
+.o-right-stroke{
+	height: 30px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 30px;
+	top: 10px;
+}
+.o-top-stroke {
+	height: 10px; 
+	width: 20px; 
+	background: black; 
+	position: absolute;
+	left: 10px;
+}
+.o-bottom-stroke {
+	height: 10px; 
+	width: 20px; 
+	background: black; 
+	position: absolute;
+	left: 10px;
+	bottom: 0px;
+}
+
+/*P------------------------------------------------------------------*/
+#P {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 180px;
+	top: -630px;
+}
+#P.medium {
+	transform: scaleX(2);
+}
+#P.large {
+	transform: scaleX(3);
+}
+.p-left-stroke {
+	height: 50px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+}
+.p-right-stroke{
+	height: 20px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 30px;
+	top: 10px;
+}
+.p-top-stroke {
+	height: 10px; 
+	width: 20px; 
+	background: black; 
+	position: absolute;
+	left: 10px;
+}
+.p-bottom-stroke {
+	height: 10px; 
+	width: 20px; 
+	background: black; 
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+
+/*Q------------------------------------------------------------------*/
+#Q {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 240px;
+	top: -680px;
+}
+#Q.medium {
+	transform: scaleX(2);
+}
+#Q.large {
+	transform: scaleX(3);
+}
+.q-left-stroke {
+	height: 30px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	top: 10px;
+}
+.q-right-stroke{
+	height: 30px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 30px;
+	top: 10px;
+}
+.q-top-stroke {
+	height: 10px; 
+	width: 20px; 
+	background: black; 
+	position: absolute;
+	left: 10px;
+}
+.q-bottom-stroke {
+	height: 10px; 
+	width: 40px; 
+	background: black; 
+	position: absolute;
+	left: 10px;
+	bottom: 0px;
+}
+
+/*R------------------------------------------------------------------*/
+#R {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 300px;
+	top: -730px;
+}
+#R.medium {
+	transform: scaleX(2);
+}
+#R.large {
+	transform: scaleX(3);
+}
+.r-left-stroke {
+	height: 50px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+}
+.r-right-stroke-1{
+	height: 10px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 30px;
+	top: 10px;
+}
+.r-right-stroke-2{
+	height: 20px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 30px;
+	bottom: 0px;
+}
+.r-top-stroke {
+	height: 10px; 
+	width: 20px; 
+	background: black; 
+	position: absolute;
+	left: 10px;
+}
+.r-bottom-stroke {
+	height: 10px; 
+	width: 20px; 
+	background: black; 
+	position: absolute;
+	left: 10px;
+	top: 20px;
+}
+
+/*S------------------------------------------------------------------*/
+#S {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 0px;
+	top: -720px;
+}
+#S.medium {
+	transform: scaleX(2);
+}
+#S.large {
+	transform: scaleX(3);
+}
+.s-right-stroke{
+	height: 10px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	top: 10px;
+}
+.s-left-stroke{
+	height: 10px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 30px;
+	bottom: 10px;
+}
+.s-top-stroke{
+	height: 10px; 
+	width: 30px; 
+	background: black; 
+	position: absolute;
+	left: 10px;
+}
+.s-middle-stroke {
+	height: 10px; 
+	width: 20px; 
+	background: black; 
+	position: absolute;
+	left: 10px;
+	top: 20px;
+}
+.s-bottom-stroke {
+	height: 10px; 
+	width: 30px; 
+	background: black; 
+	position: absolute;
+	bottom: 0px;
+}
+
+/*T------------------------------------------------------------------*/
+#T {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 60px;
+	top: -770px;
+}
+#T.medium {
+	transform: scaleX(2);
+}
+#T.large {
+	transform: scaleX(3);
+}
+.t-middle-stroke {
+	height: 40px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+.t-top-stroke {
+	height: 10px; 
+	width: 30px; 
+	background: black; 
+	position: absolute;
+	left: 10px;
+}
+
+/*U------------------------------------------------------------------*/
+#U {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 120px;
+	top: -820px;
+}
+#U.medium {
+	transform: scaleX(2);
+}
+#U.large {
+	transform: scaleX(3);
+}
+.u-left-stroke {
+	height: 40px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+}
+.u-bottom-stroke {
+	height: 10px; 
+	width: 20px; 
+	background: black; 
+	position: absolute;
+	left: 10px;
+	bottom: 0px;
+}
+.u-right-stroke {
+	height: 40px;
+	width: 10px;
+	background: black;
+	position: absolute;
+	left: 30px;
+}
+
+/*V------------------------------------------------------------------*/
+#V {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 180px;
+	top: -870px;
+}
+#V.medium {
+	transform: scaleX(2);
+}
+#V.large {
+	transform: scaleX(3);
+}
+.v-left-stroke {
+	height: 40px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+
+}
+.v-bottom-stroke {
+	height: 10px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 10px;
+	bottom: 0px;
+}
+.v-right-stroke {
+	height: 30px;
+	width: 10px;
+	background: black;
+	position: absolute;
+	left: 30px;
+	bottom: 20px;
+}
+.v-right-stroke-2 {
+	height: 10px;
+	width: 10px;
+	background: black;
+	position: absolute;
+	left: 20px;
+	bottom: 10px;
+}
+
+/*W------------------------------------------------------------------*/
+#W {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 240px;
+	top: -920px;
+}
+#W.medium {
+	transform: scaleX(2);
+}
+#W.large {
+	transform: scaleX(3);
+}
+.w-middle-stroke {
+	height: 40px;
+	width: 10px;
+	background: black;
+	position: absolute;
+	left: 20px;
+}
+.w-left-stroke {
+	height: 40px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+}
+.w-right-stroke{
+	height: 40px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 40px;
+}
+.w-top-stroke-1 {
+	height: 10px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 10px;
+	bottom: 0px;
+}
+.w-top-stroke-2 {
+	height: 10px;
+	width: 10px;
+	background: black;
+	position:absolute;
+	left: 30px;
+	bottom: 0px;
+}
+
+/*X------------------------------------------------------------------*/
+#X {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 300px;
+	top: -970px;
+}
+#X.medium {
+	transform: scaleX(2);
+}
+#X.large {
+	transform: scaleX(3);
+}
+.x-left-stroke {
+	height: 20px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+}
+.x-left-stroke-2 {
+	height: 20px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	bottom: 0px;
+}
+.x-middle-stroke {
+	height: 10px; 
+	width: 20px; 
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	background: black; 
+}
+.x-right-stroke {
+	height: 20px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 30px;
+}
+.x-right-stroke-2 {
+	height: 20px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 30px;
+	top: 30px;
+}
+
+/*Y------------------------------------------------------------------*/
+#Y {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 0px;
+	top: -960px;
+}
+#Y.medium {
+	transform: scaleX(2);
+}
+#Y.large {
+	transform: scaleX(3);
+}
+.y-left-stroke {
+	height: 20px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+}
+.y-middle-stroke {
+	height: 30px; 
+	width: 10px; 
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	background: black; 
+}
+.y-right-stroke {
+	height: 20px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 20px;
+}
+
+/*Z------------------------------------------------------------------*/
+#Z {
+	position: relative;
+	height: 50px;
+	width: 60px;
+	left: 60px;
+	top: -1010px;
+}
+#Z.medium {
+	transform: scaleX(2);
+}
+#Z.large {
+	transform: scaleX(3);
+}
+.z-top-stroke {
+	height: 10px; 
+	width: 40px; 
+	background: black; 
+	position: absolute;
+}
+.z-left-stroke{
+	height: 10px;
+	width: 10px;
+	background: black;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.z-middle-stroke {
+	height: 10px; 
+	width: 10px; 
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	background: black; 
+}
+.z-right-stroke {
+	height: 10px; 
+	width: 10px; 
+	background: black; 
+	position: absolute;
+	left: 30px;
+	top: 10px;
+}
+.z-bottom-stroke {
+	height: 10px;
+	width: 40px;
+	background: black;
+	position: absolute;
+	bottom: 0px;
+}
+/*Space------------------------------------------------------------------*/
+#Space {
+	background: no ;
+}
+/* input and output */
+

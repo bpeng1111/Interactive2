@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: white;
+}
+
+#A {
+	position: relative;
+	background: pink;
+	height: 100px;
+	width: 100px;
+}
+
+#A.widest{
+	background: red;
+}
+
+.a-top-stroke {
+	height: 10px; 
+	width: 20px; 
+	background: black; 
+	position: absolute; 
+	left:10px;
+}
+.a-left-stroke {
+	height: 40px; 
+	width: 10px; 
+	background: black; 
+	position: absolute; 
+	left:0px; 
+	top: 10px;
+}
+
+.a-bar {
+	height: 10px; 
+	width: 20px; 
+	background: black; 
+	position: absolute; 
+	left: 10px; 
+	top: 30px;
+} 
+.a-right-stroke {
+	height: 40px; 
+	width: 10px; 
+	left: 30px;
+	top: 10px;
+	background: black; 
+	position: absolute;
+}
