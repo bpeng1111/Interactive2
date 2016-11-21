@@ -10,6 +10,7 @@ body {
 	
 	width: 900px;
 	height: 556px;
+<<<<<<< HEAD
 	margin: 100px auto;
 	background: rgb(64,64,64) ;
 	position: relative;
@@ -43,10 +44,69 @@ body {
 	bottom:50px;
 	left:400px;
 
+=======
+	margin: 200px auto;
+	background: rgb(20,64,64) ;
+	position: relative;
+}
+
+#space-invader{
+
+  box-shadow:
+    0 0 0 1em red,
+    0 1em 0 1em red,
+    -2.5em 1.5em 0 .5em red,
+    2.5em 1.5em 0 .5em red,
+    -3em -3em 0 0 red,
+    3em -3em 0 0 red,
+    -2em -2em 0 0 red,
+    2em -2em 0 0 red,
+    -3em -1em 0 0 red,
+    -2em -1em 0 0 red,
+    2em -1em 0 0 red,
+    3em -1em 0 0 red,
+    -4em 0 0 0 red,
+    -3em 0 0 0 red,
+    3em 0 0 0 red,
+    4em 0 0 0 red,
+    -5em 1em 0 0 red,
+    -4em 1em 0 0 red,
+    4em 1em 0 0 red,
+    5em 1em 0 0 red,
+    -5em 2em 0 0 red,
+    5em 2em 0 0 red,
+    -5em 3em 0 0 red,
+    -3em 3em 0 0 red,
+    3em 3em 0 0 red,
+    5em 3em 0 0 red,
+    -2em 4em 0 0 red,
+    -1em 4em 0 0 red,
+    1em 4em 0 0 red,
+    2em 4em 0 0 red;
+
+    background: red;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+
+    margin: 50px 0 70px 65px;
+  }
+
+#apple {
+
+	width: 42px;
+	height: 40px;
+	background:red;
+	border-radius: 30px;
+	position: absolute;
+	bottom:50px;
+	left:430px;
+>>>>>>> gh-pages
 	z-index:10;
 }
 
 
+<<<<<<< HEAD
 #eye1 {
 
 	width: 10px;
@@ -107,6 +167,8 @@ body {
 }
 
 
+=======
+>>>>>>> gh-pages
 #circle {
 
 	width: 100px;
@@ -120,6 +182,7 @@ body {
 
 }
 
+<<<<<<< HEAD
 #mouth {
 		width: 30px;
 	height: 5px;
@@ -132,6 +195,8 @@ body {
 	z-index:9;
 }
 
+=======
+>>>>>>> gh-pages
 
 #table {
 	width: 500px;
@@ -146,6 +211,7 @@ body {
 
 }
 
+<<<<<<< HEAD
 
 #pentagon {
     position: absolute;
@@ -170,6 +236,8 @@ body {
 
 }
 
+=======
+>>>>>>> gh-pages
 #candle{
 
 	width: 30px;
@@ -182,23 +250,32 @@ body {
 
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> gh-pages
 #flame{
 
  box-sizing: content-box;
   width: 15px;
   height: 15px;
   border: none;
+<<<<<<< HEAD
   -webkit-border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
   border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+=======
+>>>>>>> gh-pages
   font: normal 100%/normal Arial, Helvetica, sans-serif;
   color: yellow;
   -o-text-overflow: clip;
   text-overflow: clip;
   background: yellow;
+<<<<<<< HEAD
   -webkit-transform: rotateZ(-45deg)   ;
   transform: rotateZ(-45deg)   ;
+=======
+>>>>>>> gh-pages
 
 
   position: absolute;
@@ -206,6 +283,7 @@ body {
 	left:307px;
 }
 
+<<<<<<< HEAD
 #flame:hover { 
 	width: 1000px;
 	height: 1000px;
@@ -242,6 +320,8 @@ body {
 	transform: rotate(90deg);
 }
 
+=======
+>>>>>>> gh-pages
 
 #stem {
 	width: 100px;
@@ -249,8 +329,13 @@ body {
 	background:darkgrey;
 	
 	position: absolute;
+<<<<<<< HEAD
 	bottom:40px;
 	left:350px;
+=======
+	bottom:60px;
+	left:380px;
+>>>>>>> gh-pages
 
 	z-index:9;
 
