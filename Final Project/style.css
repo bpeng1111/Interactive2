@@ -1,0 +1,91 @@
+
+* {
+  margin:0;
+  padding: 0;
+  -ms-scroll-rails: none;
+  scroll-rails: none;
+  
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  overflow-style: autohiding-scrollbar;
+}
+
+body{ background: red;}
+
+#canvas {
+  width: 1200px;
+  height: 900px;
+  position: absolute;
+  z-index: 0;
+}
+
+#sf-resources {
+    font-family: 'Freckle Face', cursive; 
+    font-weight: 700; /* 400, 700*/
+    font-size: 32px;
+    color: black;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 0em;  
+    margin-left: 0;
+    margin-right: 0;
+    position: fixed;
+    z-index: 500;
+}
+
+/*----------------------------------animation-------------------------------------*/
+.grid {
+  background: #FFF;  
+  width: 1200px;
+  padding: 0px;
+}
+
+.grid::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.grid-item {
+  background-size: 100% 100%;3
+  box-sizing:border-box;
+  text-align: center;
+  padding-top: 100px;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  float: left;
+  border-radius: 50%;
+  margin: 0px;
+  margin-top: 0px;
+}
+
+.grid-item:hover {
+
+}
+
+.grid-item-buffer {
+  opacity: 0;
+}
+
+.grid-item:nth-child(1),
+.grid-item:nth-child(2),
+.grid-item:nth-child(3),
+.grid-item:nth-child(4),
+.grid-item:nth-child(5),
+.grid-item:nth-child(6) {
+   margin-top: 0px;
+}
+
+.grid-item:nth-child(13n+8) {
+    margin-left: 125px;
+  clear:left;
+}
+
+.grid-item:nth-child(13n+14) {
+    clear:left;
+}
+
+
+.grid-item:hover {
+  background: #FFF;
+}
